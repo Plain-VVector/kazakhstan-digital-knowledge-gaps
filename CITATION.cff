@@ -3,6 +3,7 @@ message: "If you use this replication package, please cite it."
 title: "Kazakhstan Digital Knowledge Gaps: Replication Package"
 type: dataset
 version: "1.0"
+doi: "10.5281/zenodo.22695030"
 license: "CC0-1.0"
 date-released: 2026-09-10
 
