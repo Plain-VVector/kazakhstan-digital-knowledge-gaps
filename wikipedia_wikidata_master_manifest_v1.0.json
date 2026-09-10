@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "status": "WIKIPEDIA_WIKIDATA_DESCRIPTIVE_ANALYSIS_COMPLETE",
+  "outputs": {
+    "master_results": {
+      "file": "wikipedia_wikidata_master_results_v1.0.csv",
+      "sha256": "530ac9eef3aa2409da6fec78369a8266ba0ef3a247db2608a3b688baf84a0468",
+      "rows": 59
+    },
+    "p31_detector_table": {
+      "file": "digital_gap_detector_p31_classes_v1.0.csv",
+      "sha256": "22670a18040842d6b9c7f0db0534e22a4b82fcbea79888a5458972f569566672",
+      "rows": 1445
+    }
+  },
+  "core_counts": {
+    "kkwiki_analytical_corpus": 244411,
+    "kazakhstan_related_articles": 17782,
+    "other_kkwiki_articles": 226629,
+    "wikidata_reference_universe": 29521,
+    "kkwiki_covered_entities": 17866,
+    "kkwiki_missing_entities": 11655,
+    "p31_classified_entities": 27120,
+    "p31_unclassified_entities": 2401,
+    "human_reference_universe": 6479
+  },
+  "methodological_notes": {
+    "wikidata_universe": "Kazakhstan-associated Wikidata reference universe.",
+    "p31": "Entities may have multiple P31 statements; class rows therefore overlap and must not be summed.",
+    "cross_language": "External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence.",
+    "article_depth": "References, words, links, images and related variables are structural article indicators, not direct measures of factual quality.",
+    "protected_area_disambiguation": "Q473972 'protected area' has 35.23% coverage; Q112128334 'protected area of Kazakhstan of republican significance' has 55.46% coverage. These classes must not be conflated."
+  },
+  "source_files": {
+    "corpus": {
+      "file": "kkwiki_analytical_corpus.csv",
+      "sha256": "d5b3ec18da52c403eab953612e0c86d34bccaf00601f8c3a2568eec8157b324f"
+    },
+    "depth": {
+      "file": "kazakhstan_vs_rest_depth.csv",
+      "sha256": "cb4f17138f7bfde704fdbe4411cf6a4afbc03f9ac0edfa9d5f5eb94725690a13"
+    },
+    "universe": {
+      "file": "kazakhstan_territorial_universe.csv",
+      "sha256": "41fafab991017ce52ff14979f1d2bcc6c983e6f90c11bf96f1139de48c40812e"
+    },
+    "p31_summary": {
+      "file": "kazakhstan_p31_universe_final_summary.csv",
+      "sha256": "d0f8118198cd3e55ffe658c6f3793ce63d131b20e170c077527a3c54fb959593"
+    },
+    "p31_structure": {
+      "file": "kazakhstan_p31_entity_structure.csv",
+      "sha256": "ed8dc70aa2f44b1160f29785e263f42cc12acb735aa491c0385dad22834ffbcd"
+    },
+    "gap_concentration": {
+      "file": "kazakhstan_p31_gap_concentration.csv",
+      "sha256": "34ca7165f53ebbed4968455ecf6820baae14a962ce64883edb4ac349fcf77d0c"
+    },
+    "gender": {
+      "file": "kazakhstan_human_gender_corrected.csv",
+      "sha256": "1ffbc28e4967f5ec63e42c23d74d96b691ad6f228b17d7e21a52fd670fd09ddf"
+    },
+    "gender_summary": {
+      "file": "kazakhstan_human_gender_corrected_summary.csv",
+      "sha256": "7bcd390d2105146209aa6271d6334cf79df080afb8fed678f2c5c027c8d855c4"
+    },
+    "sitelinks": {
+      "file": "kazakhstan_missing_wikipedia_sitelinks_clean.csv",
+      "sha256": "1a1ec564e548f0d92506ad7b13a5b6b1a17cfe891bc161c2ea307d9278e78eab"
+    },
+    "sitelinks_summary": {
+      "file": "kazakhstan_missing_wikipedia_sitelinks_clean_summary.csv",
+      "sha256": "787e19aa84476bc5cdc242b2d7458beead11fd87af8e3f7a7ac09dceb27c5f4a"
+    }
+  },
+  "analysis_status": {
+    "descriptive_results": "complete",
+    "new_inferential_tests": false,
+    "source_files_modified": false
+  }
+}

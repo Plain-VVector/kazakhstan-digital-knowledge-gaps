@@ -1,0 +1,5 @@
+﻿n_pairs,covered_correct,missing_correct,covered_accuracy,missing_accuracy,difference,covered_only,missing_only,discordant,mcnemar_exact_p,model,property
+38,5,6,0.13157894736842105,0.15789473684210525,-0.02631578947368421,3,4,7,1.0,gemini-3.6-flash,P2044
+10,10,10,1.0,1.0,0.0,0,0,0,1.0,gemini-3.6-flash,P580
+38,6,2,0.15789473684210525,0.05263157894736842,0.10526315789473684,6,2,8,0.2890625,gpt-5.6-terra,P2044
+10,8,10,0.8,1.0,-0.19999999999999996,0,2,2,0.5,gpt-5.6-terra,P580

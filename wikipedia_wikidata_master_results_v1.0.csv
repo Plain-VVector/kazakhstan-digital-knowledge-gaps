@@ -1,0 +1,60 @@
+﻿domain,metric,subgroup,value,unit,numerator,denominator,note
+kkwiki_corpus,analytical_articles,all,244411.0,articles,,,
+kkwiki_corpus,analytical_articles,Kazakhstan-related,17782.0,articles,,,
+kkwiki_corpus,analytical_articles,Other kkwiki,226629.0,articles,,,
+kkwiki_corpus,share_of_corpus,Kazakhstan-related,7.275449959289884,percent,17782.0,244411.0,
+article_depth,median_words,Kazakhstan-related,250.0,words,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,mean_words,Kazakhstan-related,326.0,words,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,median_references,Kazakhstan-related,1.5,references,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,mean_references,Kazakhstan-related,2.12,references,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,median_internal_links,Kazakhstan-related,7.0,links,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,mean_internal_links,Kazakhstan-related,12.69,links,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,no_references_pct,Kazakhstan-related,6.61,percent,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,thin_articles_pct,Kazakhstan-related,3.92,percent,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,median_words,Other kkwiki,264.0,words,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,mean_words,Other kkwiki,317.78,words,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,median_references,Other kkwiki,1.0,references,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,mean_references,Other kkwiki,1.61,references,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,median_internal_links,Other kkwiki,8.0,links,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,mean_internal_links,Other kkwiki,13.11,links,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,no_references_pct,Other kkwiki,36.01,percent,,,Descriptive structural article metric; not a direct measure of factual quality.
+article_depth,thin_articles_pct,Other kkwiki,12.98,percent,,,Descriptive structural article metric; not a direct measure of factual quality.
+wikidata_reference_universe,entities,all,29521.0,entities,,,
+wikidata_reference_universe,kkwiki_covered,all,17866.0,entities,17866.0,29521.0,
+wikidata_reference_universe,kkwiki_missing,all,11655.0,entities,11655.0,29521.0,
+wikidata_reference_universe,kkwiki_coverage,all,60.51963009383151,percent,17866.0,29521.0,
+wikidata_reference_universe,kkwiki_gap,all,39.48036990616849,percent,11655.0,29521.0,
+p31_structure,entities_with_known_p31,all,27120.0,entities,,,
+p31_structure,entities_without_known_p31,all,2401.0,entities,,,
+p31_structure,entities_exactly_one_p31,all,23224.0,entities,,,
+p31_structure,entities_multiple_p31,all,3896.0,entities,,,
+p31_structure,without_known_p31_pct,all,8.133193320009486,percent,2401.0,29521.0,
+gender_coverage,coverage,Female,35.15,percent,529.0,1505.0,
+gender_coverage,reference_universe_entities,Female,1505.0,entities,,,
+gender_coverage,coverage,Male,46.46,percent,2195.0,4725.0,
+gender_coverage,reference_universe_entities,Male,4725.0,entities,,,
+gender_coverage,coverage,Missing P21,70.04,percent,173.0,247.0,
+gender_coverage,reference_universe_entities,Missing P21,247.0,entities,,,
+gender_coverage,coverage,Other / multiple,0.0,percent,0.0,2.0,
+gender_coverage,reference_universe_entities,Other / multiple,2.0,entities,,,
+gender_coverage,male_minus_female_coverage_gap,binary P21 groups,11.310000000000002,percentage_points,,,Descriptive coverage difference; does not imply causal explanation.
+gender_coverage,female_to_male_coverage_ratio,binary P21 groups,0.756564786913474,ratio,,,
+cross_language_representation,wikidata_only,kkwiki-missing entities,26.42,percent,3079.0,11655.0,"External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence."
+cross_language_representation,external_wikipedia_1plus,kkwiki-missing entities,73.58,percent,8576.0,11655.0,"External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence."
+cross_language_representation,external_wikipedia_2plus,kkwiki-missing entities,14.48,percent,1688.0,11655.0,"External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence."
+cross_language_representation,external_wikipedia_3plus,kkwiki-missing entities,8.2,percent,956.0,11655.0,"External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence."
+cross_language_representation,external_wikipedia_5plus,kkwiki-missing entities,3.23,percent,377.0,11655.0,"External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence."
+cross_language_representation,external_wikipedia_10plus,kkwiki-missing entities,1.17,percent,136.0,11655.0,"External Wikipedia sitelinks are descriptive cross-language representation, not independent validation or notability evidence."
+cross_language_representation,exactly_one_external_wikipedia,kkwiki-missing entities,59.09909909909909,percent,6888.0,11655.0,
+cross_language_representation,single_external_wikipedia_site,cebwiki,63.26945412311266,percent,4358.0,6888.0,Denominator is entities represented in exactly one external Wikipedia.
+cross_language_representation,single_external_wikipedia_site,ruwiki,19.657375145180023,percent,1354.0,6888.0,Denominator is entities represented in exactly one external Wikipedia.
+cross_language_representation,single_external_wikipedia_site,enwiki,3.9198606271777,percent,270.0,6888.0,Denominator is entities represented in exactly one external Wikipedia.
+cross_language_representation,single_external_wikipedia_site,mswiki,3.90534262485482,percent,269.0,6888.0,Denominator is entities represented in exactly one external Wikipedia.
+gap_concentration,share_of_classified_missing,top_1_p31_classes,14.0,percent,1556.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_3_p31_classes,33.45,percent,3717.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_5_p31_classes,44.79,percent,4977.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_10_p31_classes,53.76,percent,5974.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_20_p31_classes,66.04,percent,7339.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_30_p31_classes,72.55,percent,8062.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_50_p31_classes,78.65,percent,8740.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.
+gap_concentration,share_of_classified_missing,top_100_p31_classes,86.38,percent,9599.0,,P31 classes overlap because entities may have multiple P31 statements; concentration uses unique missing entities.

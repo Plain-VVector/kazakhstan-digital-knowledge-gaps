@@ -1,0 +1,3 @@
+﻿model,pairs_retained,pairs_excluded_ambiguous,covered_correct,missing_correct,covered_pct,missing_pct,diff_pp,covered_only,missing_only,mcnemar_exact_p
+GPT-5.6 Terra,108,18,37,28,34.25925925925926,25.925925925925924,8.333333333333337,17,8,0.10775214433670044
+Gemini 3.6 Flash,116,10,52,50,44.827586206896555,43.103448275862064,1.7241379310344862,16,14,0.8555355519056321

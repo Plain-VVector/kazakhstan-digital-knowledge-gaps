@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "status": "AI_BENCHMARK_ANALYSIS_COMPLETE",
+  "master_file": "ai_benchmark_master_results_v1.0.csv",
+  "master_sha256": "720bf6421722cc07d1087a54011e285f607e1ce9fa7444e5bcdab0704f00dba6",
+  "master_rows": 8,
+  "benchmark_design": {
+    "recognition_primary_pairs": 126,
+    "recognition_responses": 504,
+    "factual_base_entity_pairs": 99,
+    "factual_pair_property_tests": 143,
+    "factual_responses": 572,
+    "models": 2
+  },
+  "results_scope": {
+    "recognition_primary": "closed",
+    "factual_primary": "closed",
+    "factual_prespecified_sensitivity": "closed",
+    "factual_supplementary_nonanswer": "closed",
+    "new_outcome_tests": false
+  },
+  "interpretation_guardrail": "The matched benchmark estimates association between Kazakh Wikipedia coverage and LLM performance under this benchmark. It does not establish causal effects and does not reveal model training-data provenance.",
+  "recognition_source": {
+    "file": "ai_benchmark_recognition_scoring_FINAL_UNBLINDED_v1.1.csv",
+    "sha256": "0fc64845aa56591368a3b289e78535e15a70382f7e5288ab2acaec05a3c66ab6"
+  },
+  "factual_sources": {
+    "final_scoring": {
+      "file": "ai_benchmark_factual_scoring_FINAL_UNBLINDED_v1.0.csv",
+      "sha256": "a0d81a9fd210c4f746798153006db779be8284a7142e6f0eb6117eac340db729"
+    },
+    "primary_descriptive": {
+      "file": "factual_results_overall_descriptive_v1.0.csv",
+      "sha256": "08985b8708942cb1b5d8ec8ff626565669c2f1ff49d1da50eb3ab4e9689a267d"
+    },
+    "primary_inference": {
+      "file": "factual_results_overall_cluster_inference_v1.0.csv",
+      "sha256": "7258786131257f0556669cd31488ce32e53c6b9fa74cac00e9e7be660e5c33e8"
+    },
+    "sensitivity": {
+      "file": "factual_secondary_sensitivity_overall_v1.0.csv",
+      "sha256": "397df50e669190d094c4d51e874b5b8089ab872b34236e0d0115520d97bb4974"
+    },
+    "nonanswer_descriptive": {
+      "file": "factual_nonanswer_overall_v1.0.csv",
+      "sha256": "743450cf713fe931b62b79452ff4ecb06416af8cce096e7b1cccfc787ca7534e"
+    },
+    "nonanswer_inference": {
+      "file": "factual_nonanswer_cluster_inference_v1.0.csv",
+      "sha256": "fdd06f0993ce2e55cf1b20d537b599c6813c924de2ffa95d36961937363099ec"
+    }
+  }
+}

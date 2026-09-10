@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it."
+title: "Kazakhstan Digital Knowledge Gaps: Replication Package"
+type: dataset
+version: "1.0"
+license: "CC0-1.0"
+date-released: 2026-09-10
+
+authors:
+  - family-names: "Mirmanova"
+    given-names: "Asem"
+
+abstract: >-
+  Frozen replication package for a study of digital knowledge gaps
+  related to Kazakhstan across Kazakh Wikipedia, Wikidata, and
+  large-language-model benchmarks. The release contains analytical
+  datasets, frozen scored AI outputs, statistical result tables,
+  software-environment information, integrity hashes, and a
+  reproduction notebook.
+
+keywords:
+  - Kazakhstan
+  - Kazakh Wikipedia
+  - Wikidata
+  - knowledge gaps
+  - digital inequality
+  - large language models
+  - reproducibility
+  - Wikimedia
+
