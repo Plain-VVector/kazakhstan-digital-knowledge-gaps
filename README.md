@@ -1,4 +1,8 @@
 # Kazakhstan Digital Knowledge Gaps: Replication Package
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22695030.svg)](https://doi.org/10.5281/zenodo.22695030)
+
+**Archived release v1.0:** https://doi.org/10.5281/zenodo.22695030  
+**DOI for all versions:** https://doi.org/10.5281/zenodo.22695029
 
 **Release:** v1.0
 **Status:** Frozen research release
