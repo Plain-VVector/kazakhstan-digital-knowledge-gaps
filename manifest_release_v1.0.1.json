@@ -1,0 +1,223 @@
+{
+  "release": "v1.0.1",
+  "created_utc": "2026-09-11T11:33:48.407491+00:00",
+  "file_count_excluding_manifest": 43,
+  "total_size_bytes_excluding_manifest": 26739709,
+  "files": [
+    {
+      "filename": "CITATION.cff",
+      "size_bytes": 813,
+      "sha256": "e8fa74ef0324a2bdf803c4662ccb8bb2b3d4e667e13f62b0a2a1df32c83272f4"
+    },
+    {
+      "filename": "LICENSE",
+      "size_bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "filename": "PROVENANCE.md",
+      "size_bytes": 4118,
+      "sha256": "3d2cabb5253c3cd3328b03b794103930f2182a5e49c740ea08f7548c48d3444d"
+    },
+    {
+      "filename": "README.md",
+      "size_bytes": 10886,
+      "sha256": "99d787a120ed7005f1112022855a19bae13be03ccd5955e1ddb127ddd07626f1"
+    },
+    {
+      "filename": "ai_benchmark_factual_scoring_FINAL_UNBLINDED_v1.0.csv",
+      "size_bytes": 467317,
+      "sha256": "a0d81a9fd210c4f746798153006db779be8284a7142e6f0eb6117eac340db729"
+    },
+    {
+      "filename": "ai_benchmark_master_results_v1.0.csv",
+      "size_bytes": 2165,
+      "sha256": "720bf6421722cc07d1087a54011e285f607e1ce9fa7444e5bcdab0704f00dba6"
+    },
+    {
+      "filename": "ai_benchmark_master_results_v1.0.json",
+      "size_bytes": 2215,
+      "sha256": "58aa0b14f808d334d04f9b64a2ce2d9e57e39736acc2f1c8264ed5b7fde441a5"
+    },
+    {
+      "filename": "ai_benchmark_recognition_scoring_FINAL_UNBLINDED_v1.1.csv",
+      "size_bytes": 1059620,
+      "sha256": "0fc64845aa56591368a3b289e78535e15a70382f7e5288ab2acaec05a3c66ab6"
+    },
+    {
+      "filename": "analysis_reproduction.ipynb",
+      "size_bytes": 37739,
+      "sha256": "08329dbaeeb4b88d5fd2adf7b0d80fcc5641db1aec6e2289665995f49fee5cb6"
+    },
+    {
+      "filename": "environment.txt",
+      "size_bytes": 235,
+      "sha256": "4aa1f0f6a3bacd68ff5cea577e4ff68558f9af8655c0412e574a75530a99e0a5"
+    },
+    {
+      "filename": "factual_nonanswer_by_property_v1.0.csv",
+      "size_bytes": 1221,
+      "sha256": "ae74f19234153675d6a7d8b7e5dc2ea3ff7dd6e086410025c61ca35599eac7da"
+    },
+    {
+      "filename": "factual_nonanswer_cluster_inference_v1.0.csv",
+      "size_bytes": 268,
+      "sha256": "fdd06f0993ce2e55cf1b20d537b599c6813c924de2ffa95d36961937363099ec"
+    },
+    {
+      "filename": "factual_nonanswer_overall_v1.0.csv",
+      "size_bytes": 277,
+      "sha256": "743450cf713fe931b62b79452ff4ecb06416af8cce096e7b1cccfc787ca7534e"
+    },
+    {
+      "filename": "factual_results_by_class_property_v1.0.csv",
+      "size_bytes": 2212,
+      "sha256": "bfe39e6718cce0f9faa728932534d4474812b6c375dfb0a6be36d1c67c6248c7"
+    },
+    {
+      "filename": "factual_results_by_property_v1.0.csv",
+      "size_bytes": 1625,
+      "sha256": "693a8f122e1b3e81a73edce3219bda5b9a4129e3010dfa4208543a18f19fdfd7"
+    },
+    {
+      "filename": "factual_results_overall_cluster_inference_v1.0.csv",
+      "size_bytes": 317,
+      "sha256": "7258786131257f0556669cd31488ce32e53c6b9fa74cac00e9e7be660e5c33e8"
+    },
+    {
+      "filename": "factual_results_overall_descriptive_v1.0.csv",
+      "size_bytes": 314,
+      "sha256": "08985b8708942cb1b5d8ec8ff626565669c2f1ff49d1da50eb3ab4e9689a267d"
+    },
+    {
+      "filename": "factual_secondary_sensitivity_by_property_v1.0.csv",
+      "size_bytes": 479,
+      "sha256": "8f6c93453b74a7a44a54fd6ed52eeb9eade072eab14ff5142afdbdd09e5dea17"
+    },
+    {
+      "filename": "factual_secondary_sensitivity_overall_v1.0.csv",
+      "size_bytes": 416,
+      "sha256": "397df50e669190d094c4d51e874b5b8089ab872b34236e0d0115520d97bb4974"
+    },
+    {
+      "filename": "gender_depth_categorical_tests.csv",
+      "size_bytes": 621,
+      "sha256": "e46b350b043e6c4dc8dfd177e753d4105f7b60178d9d05cd4cb784b41cb9850a"
+    },
+    {
+      "filename": "gender_depth_continuous_tests.csv",
+      "size_bytes": 686,
+      "sha256": "3340f8b1a526e9cab9fab6d45ff22621d4319c33b081583264dd42f987d27d65"
+    },
+    {
+      "filename": "kazakhstan_external_gap_p31_master.csv",
+      "size_bytes": 84779,
+      "sha256": "c02bec7b95fa37bd3f6716f617e7fa526150fe559e0f498658215a2e9e2691ee"
+    },
+    {
+      "filename": "kazakhstan_gender_depth.csv",
+      "size_bytes": 559,
+      "sha256": "e72044c0926051a47843089327eb7d6d91ffaf424a4d3babe4391f9b6b939273"
+    },
+    {
+      "filename": "kazakhstan_human_gender_corrected.csv",
+      "size_bytes": 263082,
+      "sha256": "1ffbc28e4967f5ec63e42c23d74d96b691ad6f228b17d7e21a52fd670fd09ddf"
+    },
+    {
+      "filename": "kazakhstan_human_gender_corrected_summary.csv",
+      "size_bytes": 164,
+      "sha256": "7bcd390d2105146209aa6271d6334cf79df080afb8fed678f2c5c027c8d855c4"
+    },
+    {
+      "filename": "kazakhstan_human_gender_final.csv",
+      "size_bytes": 167820,
+      "sha256": "33985b90ef6f868b2ec2b45bf368f7a2ccc0f729d3104df34388a3173a1c5f0e"
+    },
+    {
+      "filename": "kazakhstan_p31_class_coverage_exploded.csv",
+      "size_bytes": 93418,
+      "sha256": "ff478165e37cf71b1052faeaecc22eabf1931b422661c18bf6934365e1855c71"
+    },
+    {
+      "filename": "kazakhstan_p31_universe_final_detail.csv",
+      "size_bytes": 1185267,
+      "sha256": "66c021c424f67fcbd8e87dcfd7f34a841af5fd882df6b264079f6fa947ff641e"
+    },
+    {
+      "filename": "kazakhstan_p31_universe_final_summary.csv",
+      "size_bytes": 136877,
+      "sha256": "d0f8118198cd3e55ffe658c6f3793ce63d131b20e170c077527a3c54fb959593"
+    },
+    {
+      "filename": "kazakhstan_territorial_universe.csv",
+      "size_bytes": 739490,
+      "sha256": "41fafab991017ce52ff14979f1d2bcc6c983e6f90c11bf96f1139de48c40812e"
+    },
+    {
+      "filename": "kkwiki_analytical_corpus.csv",
+      "size_bytes": 16510989,
+      "sha256": "d5b3ec18da52c403eab953612e0c86d34bccaf00601f8c3a2568eec8157b324f"
+    },
+    {
+      "filename": "kkwiki_creator_summary.csv",
+      "size_bytes": 87362,
+      "sha256": "5d00fcd560c3c77418fcc7ca6bb332345a8ab82af119219c6e27f81aaccd030b"
+    },
+    {
+      "filename": "kkwiki_p31.csv",
+      "size_bytes": 4292817,
+      "sha256": "837b1480cda4d8a946114a011afb9af84d1d2cfcd2cf7a2aa7848b6f09da4bd3"
+    },
+    {
+      "filename": "kkwiki_standardization_by_p31.csv",
+      "size_bytes": 670506,
+      "sha256": "11b2c31426db2f204c91b961b864e48ee7537e364c54819aea83d03dc018720b"
+    },
+    {
+      "filename": "kkwiki_thematic_depth.csv",
+      "size_bytes": 791238,
+      "sha256": "4e1b849e6cdab23eeecab7085cfd1035b16273a402c5d9e9909d0ced0b59e9f4"
+    },
+    {
+      "filename": "p31_labels_verified.csv",
+      "size_bytes": 101255,
+      "sha256": "3b1c9356e3e1f3a5ef1a380d67144ac432865b6e423b93fd865f376c40c775fa"
+    },
+    {
+      "filename": "recognition_ambiguous_sensitivity_v1.1.csv",
+      "size_bytes": 374,
+      "sha256": "5f5c471f88e6fdbafd1dc620689d166b5a4ac33a57c273d40fe71e7fa77f1978"
+    },
+    {
+      "filename": "recognition_by_class_descriptive_v1.1.csv",
+      "size_bytes": 1020,
+      "sha256": "dcf2b333cfb1483412dda97309fd9630545036de2c5261ccfc02badbf744e861"
+    },
+    {
+      "filename": "recognition_primary_bootstrap_ci_v1.1.csv",
+      "size_bytes": 205,
+      "sha256": "49a2b6c524a837281002f9aa1a58e9375b165b9eae4dc0a45d77740436f00b2c"
+    },
+    {
+      "filename": "recognition_primary_mcnemar_v1.1.csv",
+      "size_bytes": 342,
+      "sha256": "c1e3c2d6b1f26d081ca2ba446ef457cb38b7002e1d8fddae833d59577ad0e259"
+    },
+    {
+      "filename": "requirements.txt",
+      "size_bytes": 91,
+      "sha256": "fa3fc8be1d534922a6c25070e706118eab1115234c2a0cbb2708718b6fae2e86"
+    },
+    {
+      "filename": "wikipedia_wikidata_master_manifest_v1.0.json",
+      "size_bytes": 3446,
+      "sha256": "ab7b760a8ecb431dd05d9b1c3d8de28511cc9d35af58af0dd3ff8d8e2046920c"
+    },
+    {
+      "filename": "wikipedia_wikidata_master_results_v1.0.csv",
+      "size_bytes": 8016,
+      "sha256": "530ac9eef3aa2409da6fec78369a8266ba0ef3a247db2608a3b688baf84a0468"
+    }
+  ]
+}
