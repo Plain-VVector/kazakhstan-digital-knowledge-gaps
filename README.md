@@ -1,5 +1,8 @@
 # Kazakhstan Digital Knowledge Gaps: Replication Package
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22712068.svg)](https://doi.org/10.5281/zenodo.22712068)
 
+**Archived release v1.0.1:** https://doi.org/10.5281/zenodo.22712068  
+**DOI for all versions:** https://doi.org/10.5281/zenodo.22695029
 **Release:** v1.0.1
 **Status:** Frozen research release
 **Purpose:** Replication materials for a study of digital knowledge gaps related to Kazakhstan across Kazakh Wikipedia, Wikidata, and large language models.
