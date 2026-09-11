@@ -1,7 +1,7 @@
 # Data provenance and rights context
 
 This file documents the origin and rights context of materials included
-in release v1.0. It does not attempt to relicense third-party content.
+in release v1.0.1. It does not attempt to relicense third-party content.
 
 ## CC0 dedication and scope
 
@@ -69,7 +69,7 @@ Files containing derived analytical measurements and summaries include:
 `kkwiki_creator_summary.csv` contains public Wikimedia contributor
 identifiers used for creator-concentration analysis.
 
-The publication-safety audit of release v1.0 detected no email addresses
+The publication-safety audit of release v1.0.1 detected no email addresses
 and no credential-like strings.
 
 ## AI benchmark material
@@ -109,6 +109,6 @@ and AI benchmark results from the released data files.
 
 ## Release integrity
 
-SHA-256 hashes are recorded in `manifest_release_v1.0.json`.
+SHA-256 hashes are recorded in `manifest_release_v1.0.1.json`.
 The manifest is regenerated only after all publication files and
 metadata are finalized.

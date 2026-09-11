@@ -1,10 +1,6 @@
 # Kazakhstan Digital Knowledge Gaps: Replication Package
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22695030.svg)](https://doi.org/10.5281/zenodo.22695030)
 
-**Archived release v1.0:** https://doi.org/10.5281/zenodo.22695030  
-**DOI for all versions:** https://doi.org/10.5281/zenodo.22695029
-
-**Release:** v1.0
+**Release:** v1.0.1
 **Status:** Frozen research release
 **Purpose:** Replication materials for a study of digital knowledge gaps related to Kazakhstan across Kazakh Wikipedia, Wikidata, and large language models.
 
@@ -12,7 +8,7 @@
 
 This release contains the datasets and final analytical outputs used in the study. It is preserved as a fixed research snapshot so that the reported results can be reproduced independently of later changes to Wikidata, Wikipedia, the Digital Gap Detector, or AI systems.
 
-The release contains **34 research data and result files**, together with `manifest_release_v1.0.json`, which records file names, sizes, and SHA-256 hashes.
+The release contains **34 research data and result files**, together with `manifest_release_v1.0.1.json`, which records file names, sizes, and SHA-256 hashes.
 
 Two different analytical populations are used in the study and should not be confused:
 
@@ -138,7 +134,7 @@ This directory represents a frozen research release. Files in this release shoul
 
 The live Digital Gap Detector may use newer versions of Wikidata- and Wikipedia-derived data. Such updates do not replace or modify this research snapshot.
 
-`manifest_release_v1.0.json` provides SHA-256 hashes that can be used to verify that the released files have not changed.
+`manifest_release_v1.0.1.json` provides SHA-256 hashes that can be used to verify that the released files have not changed.
 
 A cleaned reproduction notebook and software environment information will accompany the final public release.
 
@@ -160,7 +156,7 @@ A DOI and recommended citation will be added after the archival release is depos
 
 ## Reproducibility
 
-Release v1.0 is a frozen replication package. It is independent of the
+Release v1.0.1 is a frozen replication package. It is independent of the
 live Digital Gap Detector, whose underlying product data may be updated
 as Wikipedia and Wikidata change.
 
@@ -257,13 +253,13 @@ endpoints. Because the source URL used the `latest` alias, this date is
 reported as the **retrieval date**, not as an independently verified
 internal Wikimedia snapshot date.
 
-All research datasets in release v1.0 are frozen. Subsequent changes to
+All research datasets in release v1.0.1 are frozen. Subsequent changes to
 Wikipedia, Wikidata, model services, or the live Digital Gap Detector do
 not modify this release.
 
 ### Integrity
 
-`manifest_release_v1.0.json` contains SHA-256 hashes for the frozen
+`manifest_release_v1.0.1.json` contains SHA-256 hashes for the frozen
 release files. The manifest must be regenerated after all publication
 metadata files are finalized and immediately before publication.
 
